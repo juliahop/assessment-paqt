@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-500 hover:text-blue-400 hover:underline transition-all;
+}
+
+.background-shape {
+  background-color: red;
+  clip-path: polygon(100% 0, 40% 100%, 100% 100%);
+  height: 100vh;
+  background-attachment: fixed;
+}

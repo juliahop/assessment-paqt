@@ -1,0 +1,9 @@
+CREATE TABLE RESIDENTS (
+ID INT NOT NULL,
+Name VARCHAR(150) NOT NULL,
+BudgetTotal INT,
+BudgetUsed INT,
+IsCancelled BOOL NOT NULL,
+StartDate DATE,
+EndDate DATE
+);
